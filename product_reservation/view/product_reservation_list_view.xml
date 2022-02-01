@@ -1,0 +1,18 @@
+<?xml version="1.0"  ?>
+<odoo>
+   <record id="product_reservation_list_view" model="ir.ui.view">
+        <field name="name" >product.reservation.tree</field>
+        <field name="model">product_reservation</field>
+        <field name="arch" type="xml">
+            <tree string="list_view">
+                <field name="name"></field>
+                <field name="customer_id"></field>
+                <field name="expiry_date"></field>
+                <field name="multi_product"></field>
+
+
+            </tree>
+        </field>
+    </record>
+
+</odoo>

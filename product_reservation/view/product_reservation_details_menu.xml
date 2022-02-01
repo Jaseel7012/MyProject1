@@ -1,0 +1,9 @@
+<?xml version="1.0"  ?>
+<odoo>
+  <record id="product_reservation_action" model="ir.actions.act_window">
+    <field name="name">Product Reservation </field>
+    <field name="res_model">product_reservation</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+</odoo>

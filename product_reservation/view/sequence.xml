@@ -1,0 +1,12 @@
+<?xml version="1.0"  ?>
+<odoo>
+    <record id="sequence_reservation" model="ir.sequence">
+        <field name="name">Product Reservation</field>
+        <field name="code">product.reservation</field>
+        <field name="active">TRUE</field>
+        <field name="prefix">RES</field>
+        <field name="padding">6</field>
+        <field name="number_next">1</field>
+        <field name="number_increment">1</field>
+    </record>
+</odoo>
