@@ -1,0 +1,22 @@
+def validate_pin(pin):
+    e=[0,2,4,6,8]   
+    count=0
+    
+    if pin.isdigit():
+        if len(pin)>=4 and len(pin)<=6:
+            for i in pin:
+                if i!=" ":
+                    if int(i)%2!=0:
+                        print(True)
+                    else:
+                        return False
+                else:
+                    return False
+        else:
+            return False
+    else:
+        return False
+        
+        
+       
+print(validate_pin("8601"))
